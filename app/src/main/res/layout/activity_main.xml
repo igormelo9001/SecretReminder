@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.igor.androidloginrestfulwebservice.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="341dp"
+            android:id="@+id/listView"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+        <Button
+            android:id="@+id/btnUrlLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF6347"
+            android:text="Cadastrar Novo"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/logOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF6347"
+            android:layout_margin="5dp"
+            android:text="log out"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
